@@ -52,6 +52,7 @@ AM_CPPFLAGS = 						\
 
 shellincludedir = $(includedir)/rhythmbox/shell
 shellinclude_HEADERS =					\
+	rb-application.h				\
 	rb-shell.h					\
 	rb-shell-player.h				\
 	rb-shell-preferences.h				\
